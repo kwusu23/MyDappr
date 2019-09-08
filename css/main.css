@@ -1,0 +1,687 @@
+@font-face {
+font-family: leow;
+src: url(../fonts/leow.otf);
+}
+
+
+@font-face {
+font-family: avg;
+src: url(../fonts/Avgardm.ttf);
+}
+
+.nav-list{
+  float:right;
+
+}
+
+.nav-list li{
+  margin-right:50px;
+  cursor:pointer;
+  /* color:#5DA1CE; */
+  margin-top:35px;
+  color:#5DA1CE;
+  font-size: 17px;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+
+
+.mydapprIo{
+  cursor:pointer;
+  color:#1378E0;
+  text-decoration: underline;
+}
+
+
+.nav-head-fixed{
+position:fixed;
+width:100%;
+margin-left: 15px;
+box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+background-image: url("../icons/Header.png");
+background-size: cover;
+height:85px;
+z-index:999;
+background: #fff;
+margin-top:-10px;
+margin-bottom: 10px;
+}
+
+
+.navbar-brand{
+  color:#B4BABF;
+}
+
+
+#log-nav{
+  background-color: #5DA1CE;
+  background-size: cover;
+  height: 40px;
+  width: 170px;
+  margin-top: 25px;
+  padding-top: 5px;
+  border-radius: 30px;
+  padding-bottom: 5px;
+  padding-top: 8px;
+  color: #fff;
+  text-align: center;
+
+}
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+
+
+}
+
+.home{
+
+  background-image: url("../wallpaper/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:auto;
+
+
+}
+
+
+.details{
+  background-size: cover;
+  padding-bottom:80px;padding-top:10px;
+  padding-left:40px;padding-right:60px;
+}
+
+
+
+.problem{
+
+background-image: url("../wallpaper/4.png");
+background-size: cover;
+padding-bottom:100px;
+padding-left:30px;padding-right:60px;
+
+}
+
+.problemText{
+display: table;margin:0 auto;
+
+}
+
+.problemText h1,h2{
+font-weight:bold;color:#324B63;
+
+}
+
+
+
+.problemText p{
+font-size:17px;color:#324B63;
+}
+
+.solText h1,h2{
+font-weight:bold;color:#324B63;
+
+}
+
+.solText{
+
+padding-left: 20px;
+
+
+}
+
+.solText p{
+  font-size:17px;color:#324B63;
+  display: inline;
+}
+
+
+.contact{
+
+  background-image: url("../wallpaper/8.png");
+  background-size: cover;
+}
+
+
+.roadmap{
+
+  background-image: url("../wallpaper/5.png");
+  background-size: cover;
+
+}
+
+
+    .roadDiv{
+
+    width:50%;margin-top:30px;display:table;margin:0 auto;padding-bottom:50px;
+
+    }
+
+
+
+.token{
+
+  background-image: url("../wallpaper/6.png");
+  background-size: cover;
+}
+
+
+.team{
+  background-image: url("../wallpaper/7.png");
+  background-size: cover;
+  padding-bottom:40px;
+}
+
+.teamDiv{
+  display: table;margin:0 auto; padding-top: 50px;padding-bottom:25px;
+
+}
+
+.teamDiv h1{
+  font-weight:bold;color:#324B63;
+
+}
+
+.teamDiv hr{
+  border:1px solid #324B63;
+  width:50px;
+
+}
+
+.teampicture{
+  display:table; margin:0 auto;margin-top:20px;width:80%;
+
+}
+
+.memberImage{
+  width:160px;display:table;margin:0 auto;
+
+}
+
+.des{
+  display:table; margin:0 auto;font-size:16px;
+
+}
+
+
+
+.first{
+  width:85%;
+  margin:0 auto;
+}
+
+
+.logohead{
+  height: 60px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.tokenDiv hr{
+  width: 80px;
+  display: block;
+  border: 1px solid #000000;
+}
+
+.tokenIcon{
+  width: 60%;
+
+}
+
+.tokenDiv{
+  display: table;margin:0 auto; padding-top: 50px;
+
+}
+
+.tokenDiv h1{
+  font-weight:bold;color:#324B63;
+
+}
+
+
+.tokenDiv2{
+  display: table;margin:0 auto;font-size:25px;
+
+}
+
+.tokenDiv2 h2{
+  font-weight:bold;color:#324B63;
+
+}
+
+.tokenImageDiv{
+  width:800px;display:table;margin:0 auto;padding-bottom:50px;margin-top:20px;
+
+}
+
+.txt{
+
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+
+.second{
+  width: 80%;
+  display:table;margin: 0 auto;
+
+}
+
+
+.logo{
+  width:100%;
+}
+
+
+.sixth{
+  width: 100%;
+  /* height:350px; */
+
+}
+
+
+
+    .seventh{
+      width: 100%;
+      /* height:400px; */
+
+    }
+
+
+    .nav ul{
+
+    }
+
+    .social{
+
+        width:100%;
+        cursor: pointer;
+    }
+
+    .roadIcon{
+
+      width: 100%;
+    }
+
+
+    .mydappr{
+
+
+      width: 40%;
+
+    }
+
+    .intro{
+
+      font-family: avg;
+      /* font-size:2vw; */
+
+    }
+
+    h2{
+
+      font-family: leow;
+    }
+
+    .pro{
+
+      font-family: "arial";
+
+    }
+
+    .TeamMembers{
+
+
+        font-family: "arial";
+        font-size: 24px;
+        color:#324B63;
+        display: table;
+        margin: 0 auto;
+
+    }
+
+   .road{
+    border:1px solid #fff;
+    display: table;
+    margin: 0 auto;
+    }
+
+
+    .whitepaperButton p{
+      color:#fff;
+    }
+    .tok{
+       width:55px;
+       color:#324B63;
+     }
+
+    .mydap{
+      color:#5DA1CE;
+    }
+
+
+    .dap{
+      color:#FFA23C;
+    }
+
+    .intro1{
+
+      display:table;margin:0 auto;
+    }
+
+    .subintro1{
+
+      display:table; margin:0 auto;
+    }
+
+    .subIntro1 h1{
+
+      color:#FFA23C;
+    }
+
+    .introButton{
+      cursor:pointer;
+    }
+
+
+    .introButton p{
+      font-size: 18px;
+    }
+
+    .job{
+      color:#1378E0;
+
+    }
+
+
+    .nopadding{
+
+      padding: 8px !important;
+      margin: 0 !important;
+    }
+
+    a:link{
+      text-decoration: underline;
+    }
+
+    .homeIntro{
+      display:table; margin:0 auto;margin-top:40px;
+    }
+
+    .homeIntro h1{
+      color:#FFA23C;font-weight:bold;font-size:50px;
+    }
+
+    .homeIntro p{
+      font-size:30px;color:#324B63;
+    }
+
+    .myDappr h1{
+       font-weight:bold;color:#324B63;
+    }
+
+    .myDappr p{
+      font-size:17px;color:#324B63;
+    }
+
+
+    .IdeateHeader{
+      display:table;margin:0 auto;
+    }
+
+    .IdeateHeader h2{
+      color:#8C3FAE;
+    }
+
+    .IdeateText {
+      display:table; margin:0 auto;
+    }
+
+    .IdeateText p{
+      display:table; margin:0 auto;font-size:17px;color:#324B63;
+    }
+
+    .DappsHeader{
+      display:table;margin:0 auto;
+    }
+
+    .DappsHeader h2{
+      color:#8C3FAE;
+    }
+
+    .DappsText p{
+      display:table; margin:0 auto;font-size:17px;color:#324B63;
+    }
+
+    .PlatformHeader{
+      display:table;margin:0 auto;
+    }
+
+    .PlatformHeader h2{
+      color:#8C3FAE;
+    }
+
+    .PlatformText p{
+      display:table; margin:0 auto;font-size:17px;color:#324B63;
+    }
+
+    .brindocorp{
+      width:150px;display:table;margin:0 auto;
+    }
+
+    .brindocorp h2{
+      font-size:20px; font-weight:bold;color:#324B63;text-align:center;
+    }
+
+    .brindocorp p{
+      font-weight:bold;color:#324B63;text-align:center;
+    }
+
+    .slideInfoSegun{
+
+      margin-left: -500px;display:none;height:450px;width:800px;background-image:url('../teamPictures/8.png');background-size: cover;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    }
+
+
+    .roles p{
+
+      color:#1378E0;font-size:20px;
+    }
+
+    .Info{
+
+      float:right;margin-top:90px;width:60%;display:table;
+    }
+
+
+    .slideInfoSam{
+
+      margin-left: -500px;display:none;height:450px;width:800px;background-image:url('../teamPictures/7.png');background-size: cover;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+      padding-right: 10px;
+    }
+
+
+    .slideInfoMarshal{
+
+      display:none;height:450px;width:900px;background-image:url('../teamPictures/6.png');background-size: cover;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+      padding-right: 50px;
+    }
+
+    .slideInfoJamie{
+
+      margin-left:-200px;display: none;height:450px;width:800px;background-image:url('../teamPictures/5.png');background-size: cover;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+      padding-right: 20px;
+    }
+
+    .slideInfoGodwin{
+
+      margin-left:-500px;display: none;height:450px;width:900px;background-image:url('../teamPictures/4.png');background-size: cover;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+      padding-right: 50px;
+    }
+
+    .slideInfoFaisal{
+
+       display: none;height:400px;width:800px;background-image:url('../teamPictures/3.png');background-size: cover;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+       padding-right: 20px;
+    }
+
+    .slideInfoAust{
+
+      margin-left:-100px;display: none;height:400px;width:800px;background-image:url('../teamPictures/2.png');background-size: cover;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+      padding-right: 20px;
+    }
+
+    .slideInfo{
+
+
+      display: none;height:400px;width:800px;background-image:url('../teamPictures/1.png');background-size: cover;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    }
+
+    .abt{
+      color:#324B63;
+    }
+
+.ContactInfo{
+
+  color:#fff;font-size:17px;font-size:17px;
+}
+
+
+.mediaIcons{
+
+  display:table;margin:0 auto;width:100%;
+
+}
+
+.med{
+
+  display:table;margin:0 auto;margin-top:0px;width:20%;
+}
+
+.detailsText{
+
+  font-size:17px;
+  text-align: center;
+}
+
+.ideateIcon{
+  width:80%;display:table;margin:0 auto;padding-left:50px;
+
+}
+
+.dappsIcon{
+  width:71%;display:table;margin:0 auto;padding-right:30px;
+
+}
+
+.platformIcon{
+  width:65%;display:table;margin:0 auto;padding-right:18px;
+
+}
+.dapp{
+
+  margin-top:150px;
+}
+
+.introduction{
+
+  padding-bottom:100px;padding-left:8%;
+}
+.socialIcon img{
+
+padding-left: 10px;
+width:20%;
+/* display:table;margin:0 auto; */
+
+}
+
+.socialIcon{
+  display:table;margin:0 auto;padding-left:50px;
+}
+
+.ss{
+
+  padding-left:50px;padding-right:50px;width:100%;display:table;margin:0 auto;
+}
+
+
+.copyright{
+
+  display:table;margin:0 auto;margin-top:15px;padding-bottom:50px;
+}
+
+.copyright p{
+
+  color:#fff;font-size:17px;
+}
+
+
+.hamburger{
+  float: right;
+  display: none;
+}
+
+.roadUnderline{
+
+  width:50%;display:table;margin:0 auto;padding-left:210px;
+}
+
+.mobile-nav{
+
+  display: none;padding-top:100px;padding-left:50px;background:#fff;height:auto;width:60%;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);position:fixed;z-index:5;
+}
+
+.mobileView p{
+
+  color:#1378E0; padding-bottom:15px;
+}
+
+.navList{
+
+  padding:0 !important;margin-left:105px;
+}
+
+.solDiv{
+
+  margin-top:50px;
+}
+
+.introduce{
+  margin-top:50px;
+}
+
+
+.aboutUs{
+
+  margin-top:150px;
+}
+
+.about{
+  padding-right:50px;
+}
+.det{
+
+  margin-top:180px
+}
+
+.six{
+
+  margin-top:30px;
+}
+
+.solt{
+  margin-top:100px;
+}
+
+.nav-list li:hover{
+
+  color:#1378E0;
+}
+
+#log-nav:hover{
+
+  background-color: #1378E0;
+}

@@ -1,0 +1,548 @@
+
+      @media only screen and (max-width: 768px){
+
+        .fixed-list{
+          display: none;
+        }
+
+        .hamburger{
+
+          display: block;
+        }
+
+        .roadmapText{
+
+          padding-right: 30px;
+        }
+
+        .roadDiv img{
+
+          width: 100%;
+        }
+
+
+
+
+
+        .homeIntro p{
+          text-align: center;
+          font-size: 5px;
+
+        }
+
+
+        .homeIntro h1{
+          text-align: center;
+
+
+        }
+
+        .whitepaperButton{
+          /* margin-left: 200px; */
+          margin: 0 auto;
+
+
+        }
+
+
+        .myDappr p{
+          text-align: center;
+
+        }
+
+        .myDappr h1{
+          text-align: center;
+
+        }
+
+        .introduction{
+          width: 80%;
+          margin: 0 auto;
+
+        }
+
+        .introduction h1{
+        font-size: 30px;
+        margin-top: 50px;
+        }
+
+
+      }
+
+
+      @media screen and (max-width: 360px){
+        .homeIntro p{
+          text-align: center;
+          padding-right: 8%;
+
+
+        }
+
+        .homeIntro{
+          display: table;
+          margin: 0 auto;
+        }
+
+        .mediaIcons{
+
+          display: inline;
+        }
+
+      }
+
+
+/* original */
+
+      @media screen and (max-width: 800px){
+        .homeIntro{
+
+          width:100%;
+          display: table;
+          margin: 0 auto;
+
+        }
+
+        .nav-head{
+
+          display: none;
+        }
+
+        .nav-head-fixed{
+
+          display: block;
+        }
+
+
+
+        .first{
+
+        padding-left: 30px;
+        margin-left: 20px;
+
+        }
+
+        .body{
+          overflow-x: hidden;
+        }
+
+
+        .home{
+
+        width:100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 0px;
+
+
+        }
+
+        .homeIntro p{
+
+          font-size: 20px;
+
+        }
+
+
+        .ContactInfo p{
+
+          font-size: 12px;
+          color:#fff;
+
+        }
+
+
+        .ideateIcon {
+
+          padding-top:50px;
+
+        }
+
+        .navbar-header{
+
+          margin-left: -30px;
+        }
+
+
+        .tokenDiv2 h2{
+
+          font-size: 18px;
+
+        }
+
+        .tokenDiv h1{
+
+          font-size: 25px;
+
+        }
+
+
+        .dapp p{
+
+
+          font-size: 12px;
+          padding-left: 10px;
+
+        }
+
+
+        .socialIcon{
+          width: 100%;
+
+
+
+        }
+
+        .mediaIcons{
+          width:60%;
+
+
+
+        }
+
+
+        .roadmap hr{
+
+          margin-left: 100px;
+
+        }
+
+
+
+        .problemState{
+          display:flex;
+          flex-direction: column-reverse;
+        }
+
+        .aboutUs{
+
+          display: table;margin: 0 auto;
+          padding-left: 20px;
+
+        }
+
+        .details{
+          margin-top: 30px;
+        }
+
+        .det{
+
+          margin-top: 30px;
+        }
+
+        .about{
+
+          display: table;margin: 0 auto;
+
+        }
+
+
+        .dapp{
+
+          /* padding-left: 80px; */
+          display: table;margin: 0 auto;
+          /* margin-left: 50px; */
+        }
+        .second{
+
+          width:100%;
+
+
+        }
+
+
+        .introduce{
+          margin-top: 100px;
+            display:flex;
+            flex-direction: column-reverse;
+        }
+
+
+
+
+
+        .myDappr p{
+        font-size: 14px;
+        }
+
+        .myDappr h1{
+        padding-left: 10px;
+        font-size: 20px;
+        }
+
+
+        .copyright p{
+          font-size: 12px;
+        }
+
+
+        .mobileLogo{
+          width: 100px;
+          margin-left: -40px;
+
+
+        }
+
+        .dappsIcon{
+        margin-top: 50px;
+
+
+        }
+
+        .ideateIcon{
+        margin-top: -50px;
+
+
+        }
+
+        .platformIcon{
+        margin-top: 50px;
+
+
+        }
+
+        .slideInfoMarshal {
+         width:100%;
+         background-size: 100%;
+         background-repeat: no-repeat;
+         margin-bottom: 20px;
+         padding-left: 10px;
+
+        }
+
+
+        .slideInfo {
+         width:100%;
+         background-size: 100%;
+         background-repeat: no-repeat;
+         height:450px;
+         margin-bottom: 20px;
+         padding-left: 10px;
+
+        }
+
+
+        .slideInfoGodwin {
+         width:100%;
+         background-size: 100%;
+         background-repeat: no-repeat;
+         margin-left: 0px;
+         height:600px;
+         margin-bottom: 20px;
+         padding-left: 10px;
+
+        }
+
+
+        .slideInfoSam {
+         width:100%;
+         background-size: 100%;
+         background-repeat: no-repeat;
+         margin-left: 0px;
+         margin-bottom: 20px;
+         padding-left: 10px;
+
+        }
+
+
+        .slideInfoFaisal {
+         width:100%;
+         background-size: 100%;
+         background-repeat: no-repeat;
+         margin-left: 0px;
+         height:500px;
+         margin-bottom: 20px;
+         padding-left: 10px;
+        }
+
+        .slideInfoAust {
+          width:100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          margin-left: 0px;
+          height:450px;
+          margin-bottom: 20px;
+          padding-left: 10px;
+
+          }
+
+
+          .slideInfoJamie {
+            width:100%;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-left: 0px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+
+            }
+
+
+            .slideInfoSegun {
+              width:100%;
+              background-size: 100%;
+              background-repeat: no-repeat;
+              margin-left: 0px;
+              padding-left: 10px;
+
+              }
+
+
+              .Info  {
+
+                width:300px;
+                margin-top:150px;
+
+              }
+
+
+              .webText  {
+
+
+              padding-left: 20px;
+
+              }
+
+
+              .solText  {
+              padding-left: 0px;
+              /* text-align: center; */
+              margin-top: 20px;
+
+              }
+
+              .solText  p,h1{
+
+                text-align: center;
+              }
+
+              .solText h1{
+
+                text-align: center;
+                font-size: 25px;
+              }
+
+              .hamburger{
+                display: block;
+                margin-top: -70px;
+              }
+
+
+              }
+
+
+
+
+
+/* tablet view */
+  @media screen and (max-width:320px){
+
+    .ideateIcon {
+
+
+      padding-top:50px;
+
+    }
+
+    .tokenDiv2 h2{
+      font-size: 12px;
+    }
+
+
+
+    .hamburger{
+      display: block;
+      margin-top: -70px;
+    }
+
+
+    .roadUnderline{
+
+
+
+    }
+
+    .roadmap h1{
+
+    }
+
+
+
+  .roadUnderline h1{
+    display: table;margin: 0 auto;
+    font-size: 25px;
+
+
+    }
+
+
+
+  }
+
+
+
+
+  @media screen and (min-width:1024px){
+
+    .TeamMembers{
+
+    font-size: 2.0vw;
+
+    }
+
+
+
+    .slideInfo {
+     margin-left: -50px;
+
+    }
+
+    .slideInfoJamie {
+     margin-left: -400px;
+
+    }
+    .navList{
+      /* border:1px solid red; */
+      margin-left: 80px;
+
+    }
+
+
+
+
+
+
+
+  }
+
+
+
+
+        @media only screen and (max-width: 767px){
+        .hamburger{
+          display: block;
+          margin-top: -70px;
+        }
+
+
+
+          }
+
+
+          @media screen and (max-width:769px){
+
+        .nav-list li{
+
+          display: block;
+        }
+
+          }
+
+
+          @media only screen and (max-width: 812px){
+            .nav-list li{
+              font-size: 10px;
+
+            }
+
+
+            }
