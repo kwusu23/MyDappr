@@ -446,3 +446,33 @@ $('.hamburger').click(function (e) {
 
 
 });
+
+$('.play').click(function(){
+   // alert("lol")
+   $('.play-video').show(0);
+   $('#main').hide(0);
+   $('#blue').hide(0);
+   $('#orange').hide(0);
+
+
+ });
+
+ $('.play').mouseenter(function() {
+
+   $('#main').attr("src","icons/play.png");
+
+ });
+
+
+ $('.play').mouseleave(function() {
+
+   $('#main').attr("src","icons/blue.png");
+
+ });
+
+
+ $('.play').click(function() {
+
+   $('#main').attr("src","icons/orange.png");
+
+ });

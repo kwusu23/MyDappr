@@ -23,6 +23,24 @@
 
 
 
+        .playIcon{
+
+        padding-top: 0px;
+
+        }
+
+        .iframeStyle{
+
+          /* padding-top: 10px; */
+        }
+
+        .play-video{
+          padding-top:0px;
+          padding-bottom: 10%;
+          width: 70%;
+
+        }
+
 
         .homeIntro p{
           text-align: center;
@@ -59,6 +77,7 @@
           width: 80%;
           margin: 0 auto;
 
+          padding-bottom: 15%;
         }
 
         .introduction h1{
@@ -122,14 +141,17 @@
         }
 
         .body{
-          overflow-x: hidden;
+         overflow-x:scroll;
         }
 
+        .roadDiv{
+          overflow-x: scroll;
+        }
 
         .home{
 
         width:100%;
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 0px;
 
@@ -252,6 +274,7 @@
 
         .introduce{
           margin-top: 100px;
+
             display:flex;
             flex-direction: column-reverse;
         }
@@ -501,7 +524,7 @@
 
     }
     .navList{
-      /* border:1px solid red; */
+
       margin-left: 80px;
 
     }
