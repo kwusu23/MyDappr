@@ -331,6 +331,13 @@ $(document).click(function(){
 
 $(document).click(function(){
 
+  $('.play-video').hide(0);
+  $('.play').show(0);
+
+});
+
+$(document).click(function(){
+
   $('.slideInfoFaisal').hide(0);
 });
 
@@ -365,6 +372,15 @@ $(document).click(function(){
 
 
 $('.agbona').click(function (e) {
+
+  e.stopPropagation();
+  return false;
+
+
+});
+
+
+$('.play').click(function (e) {
 
   e.stopPropagation();
   return false;
