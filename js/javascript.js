@@ -336,6 +336,30 @@ window.open('https://github.com/segunjosh','_blank');
 });
 
 
+$('.fred').click(function() {
+
+  // alert("lol");
+  window.open('https://www.linkedin.com/in/fredrick-imoni-448898a8','_blank');
+
+});
+
+
+$('.josh').click(function() {
+
+  // alert("lol");
+  window.open('https://www.linkedin.com/in/fredrick-imoni-448898a8','_blank');
+
+});
+
+
+$('.olu').click(function() {
+
+  // alert("lol");
+  window.open('https://www.linkedin.com/in/joshua-akinsuyi-8794b1163','_blank');
+
+});
+
+
 $('#log-nav').click(function(){
   $(this).css("background-color","#FFAC35")
 

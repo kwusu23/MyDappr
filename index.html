@@ -740,15 +740,15 @@
 
               <div class="" style="display:table;margin:0 auto;margin-top:20px;">
                 <h2 class="TeamMembers" style="font-size:17px;">Frederick Imoni</h2>
-                <!-- <p class="pro job des godwin" style="font-weight:bold;cursor:pointer;">view profile<p> -->
+                <p class="pro job des fred" style="font-weight:bold;cursor:pointer;">view profile<p>
 
               </div>
 
             </div>
 
 
-            <div class="col-md-6">
-              <img src="icons/partner.jpg" alt="" class="roadIcon">
+            <div class="col-md-6 brindco">
+              <img src="icons/bdIcon.png" alt="" class="roadIcon" id="roadIcon">
 
               <div class="brindocorp">
                 <h2 class="pro">Brindocorp</h2>
@@ -762,7 +762,7 @@
 
               <div class="" style="display:table;margin:0 auto;margin-top:20px;">
                 <h2 class="TeamMembers" style="font-size:16px;">Joshua Akinsuyi</h2>
-                <!-- <p class="pro job des godwin" style="font-weight:bold;cursor:pointer;">view profile<p> -->
+                <p class="pro job des josh" style="font-weight:bold;cursor:pointer;">view profile<p>
 
               </div>
 
@@ -770,22 +770,22 @@
 
           </div>
 
-          <div class="row" style="width:50%;display:table;margin:0 auto;">
-            <div class="col-md-4">
+          <div class="row olusa">
+            <div class="col-md-4 olu1">
               <img src="teamPictures/olu.png" alt="" class="roadIcon">
 
-              <div class="" style="display:table;margin:0 auto;margin-top:20px;">
-                <h2 class="TeamMembers" style="font-size:15px;">Olusayo Adabonyan</h2>
-                <!-- <p class="pro job des godwin" style="font-weight:bold;cursor:pointer;">view profile<p> -->
+              <div class="olu">
+                <h2 class="TeamMembers">Olusayo Adabonyan</h2>
+                <p class="pro job des olu" style="font-weight:bold;cursor:pointer;">view profile<p>
 
               </div>
             </div>
 
-            <div class="col-md-5" style="display:none;">
-              <img src="teamPictures/olu.png" alt="" class="roadIcon">
+            <div class="col-md-4" style="display:none;">
+              <img src="teamPictures/olu.png" alt="" class="roadIcon" >
             </div>
 
-            <div class="col-md-3" style="display:none;">
+            <div class="col-md-4" style="display:none;">
               <img src="teamPictures/olu.png" alt="" class="roadIcon">
             </div>
 
@@ -800,7 +800,7 @@
 
   <!-- contacts -->
 
-    <div class="contact" style="">
+    <div class="contact">
 
       <div class="mobile-div">
         <img src="icons/logo.png" alt="" class="logo mobileLogo">
@@ -822,8 +822,6 @@
                            <img src="social/medium.png" alt="" class="social medium">
 
                         </div>
-
-
 
                     </div>
 
@@ -861,7 +859,17 @@
 
     <script src="js/javascript.js"></script>
 
+<script type="text/javascript">
 
+$(document).ready(function () {
+  if($(window).innerWidth()<=800){
+
+    $('#roadIcon').attr("src","icons/partner.jpg");
+  }
+
+});
+
+</script>
   </body>
 
 </html>

@@ -720,7 +720,42 @@ width:20%;
 
 .mobile-div{
 
-  width:8%;margin:0 auto;padding-top:180px;
+  width:9%;margin:0 auto;padding-top:180px;
   padding-right: 15px;
 
+}
+
+.olu{
+
+  display:table;margin:0 auto;margin-top:20px;
+}
+
+
+.olu img{
+
+  width:50%;
+}
+
+.olu h2{
+  font-size:15px;
+}
+
+.olusa{
+
+  width:50%;display:table;margin:0 auto;
+}
+
+.olu1{
+
+  margin-top:-100px;
+}
+
+.brindco{
+
+  padding-top:80px;
+}
+
+.olu p{
+
+  margin-top: 0px;
 }

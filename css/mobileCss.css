@@ -43,16 +43,45 @@
 
         .mobile-div{
 
-          width:2%;margin:0 auto;padding-top:180px;
+          margin:0 auto;padding-top:180px;
           padding-right: 0px;
+          width:1%;
 
         }
 
 
         .mobileLogo{
-          border:1px solid red;
-          width:10px;
+
+          /* width:10%; */
+
+          width: 50%;
         }
+
+        .olu1{
+          margin-top: 30px;
+
+        }
+
+        .olu h2{
+
+          font-size: 12px;
+        }
+
+        .olu p{
+
+          margin-top: 0px;
+        }
+        .brindco{
+
+          padding-top: 10px;
+        }
+
+        .olu1 img{
+          width:100%;
+          
+        }
+
+
 
 
         .homeIntro p{
