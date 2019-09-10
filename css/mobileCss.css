@@ -41,6 +41,19 @@
 
         }
 
+        .mobile-div{
+
+          width:2%;margin:0 auto;padding-top:180px;
+          padding-right: 0px;
+
+        }
+
+
+        .mobileLogo{
+          border:1px solid red;
+          width:10px;
+        }
+
 
         .homeIntro p{
           text-align: center;

@@ -218,6 +218,20 @@ window.open('https://www.linkedin.com/in/godwin-boadi-2b2128114','_blank');
 });
 
 
+$('.godwingitLink').click(function() {
+
+window.open('https://www.linkedin.com/in/godwin-boadi-2b2128114','_blank');
+
+});
+
+
+$('.jamieLink').click(function() {
+
+window.open('https://www.github.com/AQUACY','_blank');
+
+});
+
+
 
 $('.jamie').click(function() {
 
@@ -277,9 +291,16 @@ $('.sam').click(function() {
 });
 
 
-$('.samLink').click(function() {
+$('.samTweetLink').click(function() {
 
 window.open('https://twitter.com/@_kwusu','_blank');
+
+});
+
+
+$('.samLink').click(function() {
+
+window.open('https://www.linkedin.com/in/samuel-kwadwo-owusu-95aa9066','_blank');
 
 });
 
@@ -304,6 +325,13 @@ $('.segun').click(function() {
 $('.segunLink').click(function() {
 
 window.open('https://linkedin.com/in/segun-joshua','_blank');
+
+});
+
+
+$('.segungitLink').click(function() {
+
+window.open('https://github.com/segunjosh','_blank');
 
 });
 
@@ -464,8 +492,7 @@ $('.hamburger').click(function (e) {
 });
 
 $('.play').click(function(){
-   // alert("lol")
-   $('.play-video').show(0);
+   $('.play-video').slideToggle();
    $('#main').hide(0);
    $('#blue').hide(0);
    $('#orange').hide(0);
