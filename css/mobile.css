@@ -1,0 +1,358 @@
+
+@media (width: 320px) {
+
+  body{
+
+    width: 100%;
+    position: absolute;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+
+  body{
+
+    width: 100%;
+    position: absolute;
+  }
+    .home{
+
+      width:100%;
+    }
+
+    .hamburger{
+      display: block;
+
+      float: right;
+      margin-top: -50px;
+
+    }
+
+    .hamburger img{
+      float:right;
+    }
+
+    .fixed-list{
+      display: none;
+    }
+
+    .store{
+      width:100%;
+
+    }
+
+    .intro p{
+      font-size: 60px;
+    }
+
+
+    .subIntro br{
+      content: "";
+
+    }
+
+    .intro{
+
+      padding-top: 80px;
+    }
+
+    .subIntro{
+
+
+      width:85%;
+    }
+    .matt1{
+
+      display: none;
+    }
+
+
+    .matt3{
+
+      display: none;
+    }
+
+    .play{
+      margin-bottom: 50px;
+
+    }
+
+    .matt2{
+
+      display: none;
+    }
+
+    .mat{
+      display: none;
+    }
+
+    .ma{
+      display: block;
+    }
+
+    .homeSocial img{
+
+      width:80%;
+
+    }
+
+    .homeSocial{
+      width: 100%;
+    }
+
+    .aboutIntro{
+      width:90%;
+      display: table;margin:0 auto;
+
+    }
+
+    .aboutIntro p{
+      font-size: 40px;
+    }
+
+    .aboutIntro br{
+      content: "";
+
+    }
+
+
+    .aboutSubIntro{
+
+
+    width:90%;
+        display: table;margin:0 auto;
+
+    }
+
+    .fanpill{
+
+      display: none;
+    }
+
+    .fanIntro{
+      width:90%;
+      display: table;margin:0 auto;
+    }
+
+    .fanIntro br{
+      content: "";
+
+    }
+
+    .fanss{
+      padding-left:0%;
+      padding-bottom: 50px;
+    }
+
+    .fanIntro p{
+
+        font-size: 40px;
+
+
+    }
+
+    .fanSubIntro br{
+      content: "";
+
+    }
+
+    .fanSubIntro {
+      width:90%;
+      display: table;margin:0 auto;
+
+    }
+
+    .two{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .chat{
+      float: right;
+      margin-top: -20px;
+    }
+    .filter{
+      width:90%;
+    }
+
+    .filter1 br{
+
+      content: "";
+
+    }
+
+    .filter1{
+
+
+      width:90%;
+    }
+
+    .fan6{
+
+      width:90%;
+      display: table;margin:0 auto;
+    }
+
+    .earn br{
+
+        content: "";
+
+    }
+
+    .earn{
+      width:100%;
+    }
+
+    .earn p{
+
+  font-size: 40px;
+    }
+
+    .earn1 br{
+
+        content: "";
+
+    }
+
+    .earn1{
+
+
+      width:100%;
+    }
+
+    .fanns2{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .filterImage{
+        float: right;
+    }
+
+    .pill1{
+
+      width:90%;
+    }
+
+    .one{
+
+      padding-top: 10px;
+    }
+
+
+    .pill{
+
+      padding-bottom: 100px;
+    }
+
+    .pop{
+      display: none;
+    }
+
+    .assurance br{
+      content: "";
+    }
+
+    .assurance{
+
+      width:90%;
+        display: table;margin:0 auto;
+    }
+
+    .assurance p{
+
+      font-size: 35px;
+    }
+    .feature{
+
+      width: 100%;
+    }
+
+
+    .list-wrapper{
+      width: 90%;
+        display: table;margin:0 auto;
+    }
+
+    .hero{
+      display: none;
+    }
+
+    .david{
+      display: block;
+      padding-left: 5%;
+    }
+
+
+        .game{
+          display: none;
+        }
+
+.gameIntro br{
+    content: "";
+
+}
+
+.gameIntro {
+
+    width:90%;
+
+}
+
+.frame10{
+  width:90%;  display: table;margin:0 auto;
+  padding-bottom: 100px;
+}
+
+.gameSubIntro{
+
+  width:90%;
+
+}
+
+
+.gameSocial{
+
+  display: table;margin:0 auto;
+  width: 100%;
+}
+
+
+.gameSocial img{
+
+  padding-top: 50px;
+  width: 90%;
+}
+
+.footer{
+  width:90%;
+}
+
+
+.form{
+
+
+  width:100%;  display: table;margin:0 auto;margin-top: 50px;
+}
+
+
+.customBtn{
+
+  width: 32%;
+
+}
+
+
+.customInput {
+width:100%;
+}
+
+.footNav{
+
+  margin-top: 50px;
+}
+
+
+
+}
